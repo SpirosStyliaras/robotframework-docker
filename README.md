@@ -20,12 +20,12 @@ We can customize the build process of the docker container image through a set o
 
 ## Running the container
 The execution of the robot binary through the container is parameterized with the following environment variables:
-* `ROBOT_OPTIONAL_PARAMETERS` : Optional robot parameters like e.g. --timestampoutputs --suitestatlevel
-* `ROBOT_LOG_LEVEL` : Logging level like e.g. TRACE:DEBUG
+* `ROBOT_OPTIONAL_PARAMETERS` : Optional robot parameters like e.g. `--timestampoutputs --suitestatlevel`
+* `ROBOT_LOG_LEVEL` : Logging level like e.g. `TRACE:DEBUG`
 * `ROBOT_LOGS_DIR` : The directory where test reports are saved.
 * `ROBOT_VARIABLES` : A set of variables or variable files.
-* `ROBOT_TESTS` : The test cases executed. This variable can be initialized with any combination of --test, --suite, --include etc robot arguments.
-* `ROBOT_SUITES` : The directory containing test suites (.robot) files.
+* `ROBOT_TESTS` : The test cases executed. This variable can be initialized with any combination of `--test`, `--suite`, `--include` etc robot arguments.
+* `ROBOT_SUITES` : The directory containing test suites (`.robot`) files.
 
 This container can be run using the following command:
 
