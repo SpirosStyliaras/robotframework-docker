@@ -1,5 +1,5 @@
 <table align="center"><tr><td align="center" width="9999">
-<img src="icons/robot_fw_logo.jpg" align="center" width="150" alt="Robot icon">
+<img src="icons/robot_logo.png" align="center" width="150" alt="Robot icon">
 
 # robotframework-docker
 
